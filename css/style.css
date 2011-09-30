@@ -3,7 +3,7 @@ body,.index .count,.nr{color:#fff}
 a{color:#929292;text-decoration:none;opacity:.8;}
 a:hover{opacity:1;text-shadow:1px #000;}
 a:active{position:relative;top:1px;opacity:1}
-body{cursor: url(http://img69.imageshack.us/img69/7673/cursorw.png), auto;background:#000 url(../img/bg-medium.png) top left fixed repeat;font:62.5%/1 "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;}
+body{cursor:url(../img/cursor.png), auto;background:#000 url(../img/bg-medium.png) top left fixed repeat;font:62.5%/1 "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;}
 iframe#tumblr_controls{position:fixed !important;top:0;right:0;}
 #preloading{background:#000 url(../img/bg-medium.png) top left fixed repeat;height:100%;left:0;overflow:hidden;position:fixed;top:0;width:100%;z-index:2147483646;}
 #preloading #circularG{position:relative;width:64px;height:64px;top:50%;left:50%;margin-right:-32px;margin-top:-32px;}
