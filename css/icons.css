@@ -1,0 +1,82 @@
+/* Start site links */
+
+a[href^="http://twitter.com"]:before,
+a[href^="http://lanyrd.com"]:before,
+a[href^="http://slideshare.net"]:before,
+a[href^="https://github.com"]:before,
+a[href^="http://flickr.com"]:before,
+a[href*="linkedin.com"]:before,
+a[href^="http://dopplr.com"]:before,
+a[href^="http://last.fm"]:before,
+a[href*="smashingmagazine.com"]:before,
+a[href^="http://functionsource.com"]:before,
+a[href*="opera.com"]:before,
+a[href*="netmagazine.com"]:before,
+a[href^="http://css-tricks.com"]:before,
+a[href^="http://dribbble.com"]:before {
+	vertical-align:-2px;
+	margin-right:5px;
+	width: 16px;
+	height: 16px;
+}
+
+a[href^="http://twitter.com"]:before {
+	content: url(favicons/twitter.png);
+}
+
+.bbpBox a[href^="http://twitter.com"]:before {
+	content: "";
+	content: none;
+}
+
+a[href^="http://lanyrd.com"]:before {
+	content: url(favicons/lanyrd.png);
+}
+
+a[href^="http://slideshare.net"]:before {
+	content: url(favicons/slideshare.png);
+}
+
+a[href^="https://github.com"]:before {
+	content: url(favicons/github.png);
+}
+
+a[href^="http://flickr.com"]:before {
+	content: url(favicons/flickr.png);
+}
+
+a[href*="linkedin.com"]:before {
+	content: url(favicons/linkedin.jpg);
+}
+
+a[href^="http://dopplr.com"]:before {
+	content: url(favicons/dopplr.png);
+}
+
+a[href^="http://last.fm"]:before {
+	content: url(http://cdn.last.fm/flatness/favicon.2.ico);
+}
+
+a[href*="smashingmagazine.com"]:before {
+	content: url(favicons/smashingmag.ico);
+}
+
+a[href^="http://functionsource.com"]:before {
+	content: url(favicons/functionsource.png);
+}
+
+a[href*="opera.com"]:before {
+	content: url(http://my.opera.com/community/favicon.ico);
+}
+
+a[href*="netmagazine.com"]:before {
+	content: url(favicons/netmag.ico);
+}
+
+a[href^="http://css-tricks.com"]:before {
+	content: url(http://css-tricks.com/favicon.ico);
+}
+
+a[href^="http://dribbble.com"]:before {
+	content: url(favicons/dribbble.ico);
+}
